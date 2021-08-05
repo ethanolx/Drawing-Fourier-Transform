@@ -1,0 +1,6 @@
+*
+
+# Track only these files
+!.gitignore
+!fourier_drawing.py
+!README.md
