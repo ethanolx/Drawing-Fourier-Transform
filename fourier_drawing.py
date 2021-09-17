@@ -186,6 +186,7 @@ class DrawingFourierTransform(Scene):
         max_vector_fr: int = 5,
         total_num_of_points: int = 1000,
         save_point_plot: str = None,
+        initial_delay_s: float = 0.0,
         delay_btw_transformations_s: float = 0.1,
         delay_each_transformation_s: float = 0.1,
         vector_scale: float = 2.0,
@@ -226,6 +227,7 @@ class DrawingFourierTransform(Scene):
 
         curr_graph = graphs[0]
         self.add(curr_graph)
+        self.wait(duration=initial_delay_s)
 
         for i, g in enumerate(graphs[1::n_vectors_interval]):
             self.wait(duration=delay_btw_transformations_s)

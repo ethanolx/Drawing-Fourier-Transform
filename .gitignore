@@ -1,6 +1,5 @@
-*
-
-# Track only these files
-!.gitignore
-!fourier_drawing.py
-!README.md
+__pycache__/**
+assets/**
+media/**
+tmp/**
+index.py
