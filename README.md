@@ -12,16 +12,16 @@ The program can be used to generate very simple silhouettes or even very defined
 the only caveat being the loop must be closed (ends where it started) and continuous (no gaps).
 
 #### Drawing a Quaver (8th note)
-![Quaver](examples/Quaver.mp4)
+![Quaver](https://user-images.githubusercontent.com/71955614/133755140-0cbdde5e-9b81-447e-944d-f61c779fd086.mp4)
 
 #### Drawing a Cowboy
-![Cowboy](examples/Cowboy.mp4)
+![Cowboy](https://user-images.githubusercontent.com/71955614/133755228-736aec4d-630a-4a4c-8416-448b0944ae7b.mp4)
 
 #### Drawing of a Dragon (101 arrows)
-![Dragon](examples/Dragon-101.mp4)
+![Dragon 101](https://user-images.githubusercontent.com/71955614/133755304-99b24c5f-af9a-4d3e-ac5a-800c17e355cf.mp4)
 
 #### Drawing of a Dragon (201 arrows)
-![Dragon](examples/Dragon-201.mp4)
+![Dragon 201](https://user-images.githubusercontent.com/71955614/133755380-198a7cce-9560-4464-b57c-de6984e285b9.mp4)
 
 ## See Also
 
