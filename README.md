@@ -31,12 +31,14 @@ https://user-images.githubusercontent.com/71955614/133755380-198a7cce-9560-4464-
 
 example.py
 
->   from fourier_drawing import DrawingFourierTransform
->   from manim import *
->
->   class ExampleUsage(DrawingFourierTransform):
->       def construct(self):
->           self.draw(svg_file='path/to/svg/source')
+```
+    from fourier_drawing import DrawingFourierTransform
+    from manim import *
+
+    class ExampleUsage(DrawingFourierTransform):
+        def construct(self):
+            self.draw(svg_file='path/to/svg/source')
+```
 
 Run `manim ./example.py ExampleUsage` in terminal
 
