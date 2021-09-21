@@ -27,6 +27,19 @@ https://user-images.githubusercontent.com/71955614/133755304-99b24c5f-af9a-4d3e-
 
 https://user-images.githubusercontent.com/71955614/133755380-198a7cce-9560-4464-b57c-de6984e285b9.mp4
 
+## Example Usage
+
+example.py
+
+>   from fourier_drawing import DrawingFourierTransform
+>   from manim import *
+>
+>   class ExampleUsage(DrawingFourierTransform):
+>       def construct(self):
+>           self.draw(svg_file='path/to/svg/source')
+
+Run `manim ./example.py ExampleUsage` in terminal
+
 ## See Also
 
 This project was inspired by the following sources:
