@@ -1,5 +1,18 @@
+# Virtual environment
+.venv
+
+# Compiled bytecode
 __pycache__/**
+
+# Static source assets
 assets/**
+
+# Output media
 media/**
+
+# Temporary materials
 tmp/**
-index.py
+
+# Only fourier_drawing.py
+*.py
+!fourier_drawing.py

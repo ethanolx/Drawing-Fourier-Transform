@@ -220,7 +220,7 @@ class DrawingFourierTransform(Scene):
         graphs = []
 
         for i in range(len(freqs)):
-            graphs.append(axes.get_parametric_curve(lambda t, i=i: np.array([
+            graphs.append(axes.plot_parametric_curve(lambda t, i=i: np.array([
                 np.real([f(t) for f in freqs[:i+1]]).sum(),
                 np.imag([f(t) for f in freqs[:i+1]]).sum()
             ]), t_range=[0, 2 * PI], color=outline_colour).shift(position))
